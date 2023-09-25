@@ -1,0 +1,43 @@
+body{
+    font-weight: 600;
+    font-size: 18px;
+    background-color:blanchedalmond;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+    
+    align-items: center;
+    text-align: center;
+}
+#btn {
+    
+    border: 2px solid #4CAF50;
+    background-color: transparent;
+    color: #4CAF50;
+    padding: 10px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 256ms all;
+    border-radius: 20px;
+  }
+  
+  #btn:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+input[type=text],select{
+ padding: 12px 12px;
+ margin: 8px 0px;
+ display: inline-block;
+ border: 1px solid black;
+ border-radius: 4px;
+
+}
+#result{
+    margin: 10px ;
+}
+#prediction{
+    margin: 10px ;
+}
